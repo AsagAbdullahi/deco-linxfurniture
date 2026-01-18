@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deco-linx Modern Furniture Enterprises| Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#7a4a2e; /* 60% wood brown */
+  --secondary:#1f2933; /* 30% dark gray */
+  --accent:#2f6f4e; /* 10% forest green */
+  --light:#f5f1eb;
+  --radius:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:var(--light);color:var(--secondary);}
+header{background:#ffffffee;backdrop-filter:blur(10px);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;position:fixed;width:100%;top:0;z-index:100;border-bottom:1px solid #e5e7eb;}
+.logo{font-family:Playfair Display,serif;font-size:24px;color:var(--primary);}
+nav a{margin-left:22px;text-decoration:none;color:#374151;font-weight:600;}
+nav a:hover{color:var(--accent);}
+.hero{margin-top:80px;height:85vh;position:relative;overflow:hidden;}
+.hero img{width:100%;height:100%;object-fit:cover;border-radius:var(--radius);}
+.hero-overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);}
+.hero-content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;text-align:center;}
+.hero-content h1{font-family:Playfair Display,serif;font-size:48px;margin-bottom:20px;}
+.hero-content p{font-size:18px;margin-bottom:25px;}
+.btn{padding:14px 30px;border-radius:999px;text-decoration:none;font-weight:700;margin:5px;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-outline{border:2px solid #fff;color:#fff;}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Deco-linx Modern Furniture Enterprises</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Furniture</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+	 <a href="admin.html">Admin</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Woodwork Hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Deco-linx Modern Furniture Enterprises Built to Last</h1>
+    <p>Premium custom furniture, doors, and interiors for homes and businesses.</p>
+    <a href="products.html" class="btn btn-primary">View Our Work</a>
+    <a href="contact.html" class="btn btn-outline">Request a Quote</a>
+  </div>
+</div>
+</body>
+</html>
